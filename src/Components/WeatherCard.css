@@ -1,0 +1,82 @@
+.card {
+    /* bcoz we have used grid */
+    place-self: center;
+    padding: 40px;
+    border-radius: 20px;
+    /* box-shadow:  5px 5px 39px #77515a, -5px -5px 39px #77515a; */
+    box-shadow: 12px 12px 24px #9087cf, -12px -12px 24px #9087cf;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 26%;
+}
+
+.search-bar {
+    /* make both elements in same column */
+    display: flex;
+    align-items: center;
+    /* between icon and input */
+    gap: 15px;
+}
+
+.search-bar input {
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    height: 50px;
+    color: #626262;
+    background: #ebfffc;
+    font-size: 18px;
+    padding-left: 25px;
+}
+
+.search-bar img {
+    width: 50px;
+    padding: 15px;
+    background-color: #ebfffc;
+    border-radius: 30%;
+    cursor: pointer;
+}
+
+/* .weather-data {
+    align-items: center;
+} */
+
+.weather-icon {
+    margin: 30px 0;
+    width: 180px;
+}
+
+.temp {
+    font-size: 80px;
+    line-height: 1;
+}
+
+.location {
+    line-height: 1;
+    font-size: 40px;
+}
+
+.weather-data {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather-data .col {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 22px;
+}
+
+.weather-data .col span {
+    display: block;
+    font-size: 16px;
+}
+
+.weather-data .col img {
+    width: 26px;
+    margin-top: 10px;
+}

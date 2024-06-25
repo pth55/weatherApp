@@ -1,0 +1,5 @@
+.app {
+    display: grid;
+    min-height: 100vh;
+    background-color: #a99ff4;
+}
