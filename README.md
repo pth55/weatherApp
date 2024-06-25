@@ -1,2 +1,2 @@
 # weatherApp
-Simple Weather App with React.js and OpenWeatherMap API
+This repository contains a straightforward weather application developed using React.js. It fetches current weather data from the OpenWeatherMap API based on user input (city name) and displays essential weather information including temperature, humidity, and wind speed. The app is designed to be intuitive and responsive, providing users with up-to-date weather details for any location worldwide.
